@@ -1,0 +1,3048 @@
+{
+  "version": "2026.2",
+  "description": "Class 9 and 10 (SSLC / Secondary) Complete Curriculum & Chapter Seed Data for Karnataka State Board (KSEAB), CBSE, and CISCE (ICSE)",
+  "shared_ncert_math_science_core": {
+    "note": "Class 10: NCERT rationalised Maths & Science chapters shared by CBSE and Karnataka SSLC (CBSE verified for 2026-27; Karnataka Science has the same 13 chapters, Karnataka Maths is NCERT-aligned). Class 9: the lists here are the LEGACY NCERT chapters (2025-26 and earlier) and now apply ONLY to Karnataka (Karnataka Class 9 Maths still has these 12 chapters in 2026-27). CBSE Class 9 for 2026-27 uses new books - see CBSE_9_MATH and CBSE_9_SCI.",
+    "subjects": [
+      {
+        "subject_id": "NCERT_9_10_MATH",
+        "subject_name": "Mathematics",
+        "karnataka_sslc_code": "81E",
+        "cbse_code_standard": "041",
+        "cbse_code_basic": "241",
+        "classes": {
+          "9": [
+            {
+              "chapter_no": 1,
+              "title": "Number Systems"
+            },
+            {
+              "chapter_no": 2,
+              "title": "Polynomials"
+            },
+            {
+              "chapter_no": 3,
+              "title": "Coordinate Geometry"
+            },
+            {
+              "chapter_no": 4,
+              "title": "Linear Equations in Two Variables"
+            },
+            {
+              "chapter_no": 5,
+              "title": "Introduction to Euclid's Geometry"
+            },
+            {
+              "chapter_no": 6,
+              "title": "Lines and Angles"
+            },
+            {
+              "chapter_no": 7,
+              "title": "Triangles"
+            },
+            {
+              "chapter_no": 8,
+              "title": "Quadrilaterals"
+            },
+            {
+              "chapter_no": 9,
+              "title": "Circles"
+            },
+            {
+              "chapter_no": 10,
+              "title": "Heron's Formula"
+            },
+            {
+              "chapter_no": 11,
+              "title": "Surface Areas and Volumes"
+            },
+            {
+              "chapter_no": 12,
+              "title": "Statistics"
+            }
+          ],
+          "10": [
+            {
+              "chapter_no": 1,
+              "title": "Real Numbers"
+            },
+            {
+              "chapter_no": 2,
+              "title": "Polynomials"
+            },
+            {
+              "chapter_no": 3,
+              "title": "Pair of Linear Equations in Two Variables"
+            },
+            {
+              "chapter_no": 4,
+              "title": "Quadratic Equations"
+            },
+            {
+              "chapter_no": 5,
+              "title": "Arithmetic Progressions"
+            },
+            {
+              "chapter_no": 6,
+              "title": "Triangles"
+            },
+            {
+              "chapter_no": 7,
+              "title": "Coordinate Geometry"
+            },
+            {
+              "chapter_no": 8,
+              "title": "Introduction to Trigonometry"
+            },
+            {
+              "chapter_no": 9,
+              "title": "Some Applications of Trigonometry"
+            },
+            {
+              "chapter_no": 10,
+              "title": "Circles"
+            },
+            {
+              "chapter_no": 11,
+              "title": "Areas Related to Circles"
+            },
+            {
+              "chapter_no": 12,
+              "title": "Surface Areas and Volumes"
+            },
+            {
+              "chapter_no": 13,
+              "title": "Statistics"
+            },
+            {
+              "chapter_no": 14,
+              "title": "Probability"
+            }
+          ]
+        },
+        "verification": {
+          "karnataka": "class 9 verified (12 chapters, 2026-27); class 10 partially_verified (NCERT-aligned)",
+          "cbse": "class 10 verified (14 chapters); class 9 legacy - replaced by CBSE_9_MATH"
+        },
+        "cbse_note": "Class 10 2026-27 still follows the existing scheme (Basic 241 and Standard 041 both valid for the 2027 board exam). From Class 9 2026-27 the Basic/Standard split is discontinued (reported).",
+        "legacy_classes_note": "classes['9'] is legacy NCERT content, valid only for Karnataka in 2026-27."
+      },
+      {
+        "subject_id": "NCERT_9_10_SCI",
+        "subject_name": "Science (Physics, Chemistry, Biology)",
+        "karnataka_sslc_code": "83E",
+        "cbse_code": "086",
+        "classes": {
+          "9": [
+            {
+              "chapter_no": 1,
+              "discipline": "Chemistry",
+              "title": "Matter in Our Surroundings"
+            },
+            {
+              "chapter_no": 2,
+              "discipline": "Chemistry",
+              "title": "Is Matter Around Us Pure?"
+            },
+            {
+              "chapter_no": 3,
+              "discipline": "Chemistry",
+              "title": "Atoms and Molecules"
+            },
+            {
+              "chapter_no": 4,
+              "discipline": "Chemistry",
+              "title": "Structure of the Atom"
+            },
+            {
+              "chapter_no": 5,
+              "discipline": "Biology",
+              "title": "The Fundamental Unit of Life"
+            },
+            {
+              "chapter_no": 6,
+              "discipline": "Biology",
+              "title": "Tissues"
+            },
+            {
+              "chapter_no": 7,
+              "discipline": "Physics",
+              "title": "Motion"
+            },
+            {
+              "chapter_no": 8,
+              "discipline": "Physics",
+              "title": "Force and Laws of Motion"
+            },
+            {
+              "chapter_no": 9,
+              "discipline": "Physics",
+              "title": "Gravitation"
+            },
+            {
+              "chapter_no": 10,
+              "discipline": "Physics",
+              "title": "Work and Energy"
+            },
+            {
+              "chapter_no": 11,
+              "discipline": "Physics",
+              "title": "Sound"
+            },
+            {
+              "chapter_no": 12,
+              "discipline": "Biology",
+              "title": "Improvement in Food Resources"
+            }
+          ],
+          "10": [
+            {
+              "chapter_no": 1,
+              "discipline": "Chemistry",
+              "title": "Chemical Reactions and Equations"
+            },
+            {
+              "chapter_no": 2,
+              "discipline": "Chemistry",
+              "title": "Acids, Bases and Salts"
+            },
+            {
+              "chapter_no": 3,
+              "discipline": "Chemistry",
+              "title": "Metals and Non-metals"
+            },
+            {
+              "chapter_no": 4,
+              "discipline": "Chemistry",
+              "title": "Carbon and its Compounds"
+            },
+            {
+              "chapter_no": 5,
+              "discipline": "Biology",
+              "title": "Life Processes"
+            },
+            {
+              "chapter_no": 6,
+              "discipline": "Biology",
+              "title": "Control and Coordination"
+            },
+            {
+              "chapter_no": 7,
+              "discipline": "Biology",
+              "title": "How do Organisms Reproduce?"
+            },
+            {
+              "chapter_no": 8,
+              "discipline": "Biology",
+              "title": "Heredity"
+            },
+            {
+              "chapter_no": 9,
+              "discipline": "Physics",
+              "title": "Light - Reflection and Refraction"
+            },
+            {
+              "chapter_no": 10,
+              "discipline": "Physics",
+              "title": "The Human Eye and the Colourful World"
+            },
+            {
+              "chapter_no": 11,
+              "discipline": "Physics",
+              "title": "Electricity"
+            },
+            {
+              "chapter_no": 12,
+              "discipline": "Physics",
+              "title": "Magnetic Effects of Electric Current"
+            },
+            {
+              "chapter_no": 13,
+              "discipline": "Biology",
+              "title": "Our Environment"
+            }
+          ]
+        },
+        "verification": {
+          "karnataka": "class 10 verified (13 chapters: 4 Physics, 4 Chemistry, 5 Biology); class 9 unverified (assumed legacy)",
+          "cbse": "class 10 verified (13 chapters); class 9 legacy - replaced by CBSE_9_SCI"
+        },
+        "legacy_classes_note": "classes['9'] is legacy NCERT content, valid only for Karnataka in 2026-27."
+      }
+    ],
+    "applies_to_classes": {
+      "KARNATAKA_STATE_BOARD_SSLC": [
+        "9",
+        "10"
+      ],
+      "CBSE": [
+        "10"
+      ]
+    }
+  },
+  "boards": {
+    "KARNATAKA_STATE_BOARD_SSLC": {
+      "board_name": "Karnataka School Examination and Assessment Board (KSEAB - Class 9 & 10 SSLC)",
+      "structure": "6 Subjects: First Language, Second Language, Third Language, Mathematics, Science, Social Science",
+      "inherits_shared_ncert_math_science": true,
+      "board_specific_subjects": [
+        {
+          "subject_id": "KA_9_10_SOC",
+          "subject_name": "Social Science (KTBS State Syllabus)",
+          "subject_code": "85E",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "division": "History",
+                "title": "Western Religions"
+              },
+              {
+                "chapter_no": 2,
+                "division": "History",
+                "title": "India from 6th to 14th Century"
+              },
+              {
+                "chapter_no": 3,
+                "division": "History",
+                "title": "Religious Reformers of India"
+              },
+              {
+                "chapter_no": 4,
+                "division": "History",
+                "title": "Vijayanagara Empire and Bahmani Kingdom"
+              },
+              {
+                "chapter_no": 5,
+                "division": "Political Science",
+                "title": "Our Constitution"
+              },
+              {
+                "chapter_no": 6,
+                "division": "Political Science",
+                "title": "The Union Government"
+              },
+              {
+                "chapter_no": 7,
+                "division": "Political Science",
+                "title": "The State Government"
+              },
+              {
+                "chapter_no": 8,
+                "division": "Political Science",
+                "title": "The Judiciary"
+              },
+              {
+                "chapter_no": 9,
+                "division": "Sociology",
+                "title": "Family"
+              },
+              {
+                "chapter_no": 10,
+                "division": "Geography",
+                "title": "Our State Karnataka - Physiographic Divisions"
+              },
+              {
+                "chapter_no": 11,
+                "division": "Geography",
+                "title": "Natural Diversity of Karnataka"
+              },
+              {
+                "chapter_no": 12,
+                "division": "Geography",
+                "title": "Water Resources of Karnataka"
+              },
+              {
+                "chapter_no": 13,
+                "division": "Geography",
+                "title": "Land Resources of Karnataka"
+              },
+              {
+                "chapter_no": 14,
+                "division": "Economics",
+                "title": "Economic Structure"
+              },
+              {
+                "chapter_no": 15,
+                "division": "Economics",
+                "title": "Sectors of Indian Economy"
+              },
+              {
+                "chapter_no": 16,
+                "division": "Business Studies",
+                "title": "Management of Business"
+              },
+              {
+                "chapter_no": 17,
+                "division": "History",
+                "title": "The Ahom Dynasty, the Mughals, and the Marathas"
+              },
+              {
+                "chapter_no": 18,
+                "division": "History",
+                "title": "Bhakti Pantha"
+              },
+              {
+                "chapter_no": 19,
+                "division": "History",
+                "title": "Europe: Medieval and Modern"
+              },
+              {
+                "chapter_no": 20,
+                "division": "History",
+                "title": "Revolutions and the Rise of Nation-States"
+              },
+              {
+                "chapter_no": 21,
+                "division": "Political Science",
+                "title": "The Electoral System"
+              },
+              {
+                "chapter_no": 22,
+                "division": "Political Science",
+                "title": "Defense of the Nation"
+              },
+              {
+                "chapter_no": 23,
+                "division": "Political Science",
+                "title": "National Integration"
+              },
+              {
+                "chapter_no": 24,
+                "division": "Political Science",
+                "title": "An Introduction to the Study of International Relations"
+              },
+              {
+                "chapter_no": 25,
+                "division": "Sociology",
+                "title": "Socialization and Family Relationships"
+              },
+              {
+                "chapter_no": 26,
+                "division": "Sociology",
+                "title": "Community"
+              },
+              {
+                "chapter_no": 27,
+                "division": "Geography",
+                "title": "Mineral Resources of Karnataka"
+              },
+              {
+                "chapter_no": 28,
+                "division": "Geography",
+                "title": "Transport System in Karnataka"
+              },
+              {
+                "chapter_no": 29,
+                "division": "Geography",
+                "title": "Industries of Karnataka"
+              },
+              {
+                "chapter_no": 30,
+                "division": "Geography",
+                "title": "Major Tourist Centres of Karnataka"
+              },
+              {
+                "chapter_no": 31,
+                "division": "Economics",
+                "title": "Money and Credit"
+              },
+              {
+                "chapter_no": 32,
+                "division": "Economics",
+                "title": "Labour and Employment"
+              },
+              {
+                "chapter_no": 33,
+                "division": "Business Studies",
+                "title": "Marketing Management"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "division": "History",
+                "title": "The Advent of Europeans to India"
+              },
+              {
+                "chapter_no": 2,
+                "division": "History",
+                "title": "The Extension of the British Rule"
+              },
+              {
+                "chapter_no": 3,
+                "division": "History",
+                "title": "The Impact of the British Rule in India"
+              },
+              {
+                "chapter_no": 4,
+                "division": "History",
+                "title": "Opposition to British Rule in Karnataka and Wodeyars of Mysore"
+              },
+              {
+                "chapter_no": 5,
+                "division": "History",
+                "title": "Social and Religious Reform Movements"
+              },
+              {
+                "chapter_no": 6,
+                "division": "Political Science",
+                "title": "Public Administration - An Introduction"
+              },
+              {
+                "chapter_no": 7,
+                "division": "Political Science",
+                "title": "Challenges of India and their Remedies"
+              },
+              {
+                "chapter_no": 8,
+                "division": "Sociology",
+                "title": "Social Stratification"
+              },
+              {
+                "chapter_no": 9,
+                "division": "Sociology",
+                "title": "Work and Economic Life"
+              },
+              {
+                "chapter_no": 10,
+                "division": "Geography",
+                "title": "India - Geographical Position and Physical Features"
+              },
+              {
+                "chapter_no": 11,
+                "division": "Geography",
+                "title": "India - Seasons"
+              },
+              {
+                "chapter_no": 12,
+                "division": "Geography",
+                "title": "India - Soils"
+              },
+              {
+                "chapter_no": 13,
+                "division": "Geography",
+                "title": "India - Forest Resources"
+              },
+              {
+                "chapter_no": 14,
+                "division": "Geography",
+                "title": "India - Water Resources"
+              },
+              {
+                "chapter_no": 15,
+                "division": "Economics",
+                "title": "Economy and Government"
+              },
+              {
+                "chapter_no": 16,
+                "division": "Business Studies",
+                "title": "Bank Transactions"
+              },
+              {
+                "chapter_no": 17,
+                "division": "History",
+                "title": "The First War of Indian Independence (1857)"
+              },
+              {
+                "chapter_no": 18,
+                "division": "History",
+                "title": "The Freedom Struggle"
+              },
+              {
+                "chapter_no": 19,
+                "division": "History",
+                "title": "India After Independence"
+              },
+              {
+                "chapter_no": 20,
+                "division": "History",
+                "title": "World Wars and India's Role"
+              },
+              {
+                "chapter_no": 21,
+                "division": "Political Science",
+                "title": "India's Foreign Policy and Global Challenges"
+              },
+              {
+                "chapter_no": 22,
+                "division": "Political Science",
+                "title": "World Organizations"
+              },
+              {
+                "chapter_no": 23,
+                "division": "Sociology",
+                "title": "Collective Behaviour and Protests"
+              },
+              {
+                "chapter_no": 24,
+                "division": "Sociology",
+                "title": "Social Challenges"
+              },
+              {
+                "chapter_no": 25,
+                "division": "Geography",
+                "title": "India - Land Use and Agriculture"
+              },
+              {
+                "chapter_no": 26,
+                "division": "Geography",
+                "title": "India - Mineral and Power Resources"
+              },
+              {
+                "chapter_no": 27,
+                "division": "Geography",
+                "title": "India - Transport and Communication"
+              },
+              {
+                "chapter_no": 28,
+                "division": "Geography",
+                "title": "India - Major Industries"
+              },
+              {
+                "chapter_no": 29,
+                "division": "Geography",
+                "title": "India - Natural Disasters"
+              },
+              {
+                "chapter_no": 30,
+                "division": "Economics",
+                "title": "Rural Development"
+              },
+              {
+                "chapter_no": 31,
+                "division": "Economics",
+                "title": "Public Finance and Budget"
+              },
+              {
+                "chapter_no": 32,
+                "division": "Business Studies",
+                "title": "Entrepreneurship"
+              },
+              {
+                "chapter_no": 33,
+                "division": "Business Studies",
+                "title": "Consumer Education and Protection"
+              }
+            ]
+          },
+          "verification": "unverified"
+        },
+        {
+          "subject_id": "KA_9_10_KAN_L1",
+          "subject_name": "First Language Kannada (Siri Kannada)",
+          "subject_code": "01K",
+          "classes": {
+            "9": [
+              {
+                "section": "Gadya",
+                "chapter_no": 1,
+                "title": "Kannada Moulvi"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 2,
+                "title": "Bedagina Thana Jayapura"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 3,
+                "title": "Dharmasamadristi"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 4,
+                "title": "Adarsha Shikshaka Sarvepalli Radhakrishnan"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 5,
+                "title": "Prajanishte"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 6,
+                "title": "Janapada Kalegala Vaibhava"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 7,
+                "title": "Oorubhanga"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 8,
+                "title": "Haralila"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 9,
+                "title": "Hosahadu"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 10,
+                "title": "Parivala"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 11,
+                "title": "Sirigannada Gelge"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 12,
+                "title": "Niyatiyanarupama"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 13,
+                "title": "Marali Manege"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 14,
+                "title": "Tatvapadagalu"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 15,
+                "title": "Ninnodane Naanillave"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 16,
+                "title": "Hemanta"
+              }
+            ],
+            "10": [
+              {
+                "section": "Gadya",
+                "chapter_no": 1,
+                "title": "Yuddha"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 2,
+                "title": "Shabari"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 3,
+                "title": "London Nagara"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 4,
+                "title": "Bhagya Shilpigalu"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 5,
+                "title": "Nijaaguna Shivayogi"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 6,
+                "title": "Edege Bidda Akshara"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 7,
+                "title": "Shreshta Bharatiya Chintanegalu"
+              },
+              {
+                "section": "Gadya",
+                "chapter_no": 8,
+                "title": "Vrikshasakshi"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 9,
+                "title": "Sankalpa Geethe"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 10,
+                "title": "Hakkigudugala"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 11,
+                "title": "Kauravendrana Konde Neenu"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 12,
+                "title": "Chhalavanne Merevenu"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 13,
+                "title": "Hasuru"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 14,
+                "title": "Halagali Bedaru"
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 15,
+                "title": "Veera Lava",
+                "original_title": "Vೀರಲವ (Veera Lava)",
+                "title_needs_review": true
+              },
+              {
+                "section": "Padya",
+                "chapter_no": 16,
+                "title": "Kempu Mane"
+              }
+            ]
+          },
+          "verification": "unverified (titles transliterated; 2 titles flagged)",
+          "subject_code_status": "unverified"
+        },
+        {
+          "subject_id": "KA_9_10_ENG_L2",
+          "subject_name": "Second Language English",
+          "subject_code": "31E",
+          "classes": {
+            "9": [
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 1,
+                "title": "The Enchanted Pool / Upagupta"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 2,
+                "title": "The Three Questions / Gratefulness"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 3,
+                "title": "My Beginnings / A Girl Called Golden"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 4,
+                "title": "Whatever We Do / The Wonderful Words"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 5,
+                "title": "Justice Above Self / Justice"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 6,
+                "title": "The Noble Bishop / Nobleness Enkindleth Nobleness"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 7,
+                "title": "The Will of Sacrifice / The Song of Freedom"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 8,
+                "title": "To My Countrymen / It Never Comes Again"
+              }
+            ],
+            "10": [
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 1,
+                "title": "A Hero / Grandma Climbs a Tree"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 2,
+                "title": "There's a Girl by the Tracks! / Quality of Mercy"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 3,
+                "title": "Gentleman of Rio en Medio / I am the Land"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 4,
+                "title": "Dr. B.R. Ambedkar / The Song of India"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 5,
+                "title": "The Concert / Jazz Poem Two"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 6,
+                "title": "The Discovery / Ballad of the Tempest"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 7,
+                "title": "Colours of Silence / The Blind Boy"
+              },
+              {
+                "section": "Prose & Poetry",
+                "chapter_no": 8,
+                "title": "Science and Hope of Survival / Off to Outer Space Tomorrow Morning"
+              },
+              {
+                "section": "Supplementary",
+                "chapter_no": 9,
+                "title": "Narayanpur Incident / On Top of the World / A Great Martyr Ever Cherished / The Bird of Happiness"
+              }
+            ]
+          },
+          "verification": "unverified"
+        },
+        {
+          "subject_id": "KA_9_10_ENG_L1",
+          "subject_name": "First Language English",
+          "subject_code": "14E",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "The Best Advice I Ever Had / The Grass is Really Like Me"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Mauritius / Africa"
+              },
+              {
+                "chapter_no": 3,
+                "title": "The Collectors / The Village School Master"
+              },
+              {
+                "chapter_no": 4,
+                "title": "The Portrait of a Lady / Tiger"
+              },
+              {
+                "chapter_no": 5,
+                "title": "A Question of Space / The Pencil's Story"
+              },
+              {
+                "chapter_no": 6,
+                "title": "All Stories are Anansi's / The Bold Peddler and Robin Hood"
+              },
+              {
+                "chapter_no": 7,
+                "title": "On Saying Please / Geography Lesson"
+              },
+              {
+                "chapter_no": 8,
+                "title": "The Story-Teller / Ethics"
+              },
+              {
+                "chapter_no": 9,
+                "title": "An Astrologer's Day / Goodbye Party for Miss Pushpa T.S."
+              },
+              {
+                "chapter_no": 10,
+                "title": "A Dream of Flight / Photograph"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "A Wrong Man in Workers' Paradise / To a Pair of Sarus Cranes"
+              },
+              {
+                "chapter_no": 2,
+                "title": "The Elixir of Life / Abraham Lincoln's Letter to His Son's Teacher"
+              },
+              {
+                "chapter_no": 3,
+                "title": "The Gift of the Magi / Vachana"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Louis Pasteur, Conqueror of Disease / Lochinvar"
+              },
+              {
+                "chapter_no": 5,
+                "title": "What is Moral Action? / A Poison Tree"
+              },
+              {
+                "chapter_no": 6,
+                "title": "The Eyes are not Here / Sonnet 73 (That Time of Year)"
+              },
+              {
+                "chapter_no": 7,
+                "title": "The Girl who was Anne Frank / The Stolen Boat"
+              },
+              {
+                "chapter_no": 8,
+                "title": "A Village Cricket Match / Mending Wall"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Consumerist Culture / Buttoo"
+              },
+              {
+                "chapter_no": 10,
+                "title": "The Pie and the Tart / C.L.M."
+              }
+            ]
+          },
+          "verification": "unverified"
+        },
+        {
+          "subject_id": "KA_9_10_HIN_L3",
+          "subject_name": "Third Language Hindi (Vallari)",
+          "subject_code": "61H",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Jay-Jay Bharat Mata"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Gulab Singh"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Swami Vivekananda"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Anushasan Hi Shasan Hai"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Mausi"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Cherrapunji Se Aaya Hoon"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Paryavaran Bachao"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Bhim aur Rakshas"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Nafarat Ki Aag"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Chalana Hamara Kaam Hai"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "Matribhumi"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Kashmiri Seb"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Gillu"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Abhinav Manushya"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Mera Bachpan"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Basant Ki Sachai"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Tulsi Ke Dohe"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Internet Kranti"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Imandaro Ke Sammelan Mein"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Duniya Mein Pehla Makaan"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Samay Ki Pehchan"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Robot"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Mahila Ki Sahas Gatha"
+              },
+              {
+                "chapter_no": 14,
+                "title": "Sur-Shyam"
+              },
+              {
+                "chapter_no": 15,
+                "title": "Karnataka Sampada"
+              }
+            ]
+          },
+          "verification": "unverified"
+        }
+      ],
+      "inherits_shared_core_classes": [
+        "9",
+        "10"
+      ],
+      "verification_note": "Karnataka Class 9 Maths (12 chapters) and Class 10 Science (13 chapters) verified. Social Science, languages and subject codes unverified."
+    },
+    "CBSE": {
+      "board_name": "Central Board of Secondary Education (CBSE - Class 9 & 10)",
+      "structure": "5 Compulsory Subjects (2 Languages + Maths + Science + Social Science) + 1 Optional Skill/Academic Subject",
+      "inherits_shared_ncert_math_science": "partial",
+      "board_specific_subjects": [
+        {
+          "subject_id": "CBSE_9_MATH",
+          "subject_name": "Mathematics (Ganita Manjari) - Class 9 only",
+          "subject_code": "041",
+          "subject_code_status": "Class 9 code under new scheme unconfirmed (Standard 041 / Basic 241 discontinued from Class 9)",
+          "applies_to_classes": [
+            "9"
+          ],
+          "verification": "verified (14 chapters, 2 parts)",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Orienting Yourself: The Use of Coordinates",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Introduction to Linear Polynomials",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1"
+              },
+              {
+                "chapter_no": 3,
+                "title": "The World of Numbers",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Exploring Algebraic Identities",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1"
+              },
+              {
+                "chapter_no": 5,
+                "title": "I'm Up and Down, and Round and Round",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1",
+                "topic": "Circles"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Measuring Space: Perimeter and Area",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1"
+              },
+              {
+                "chapter_no": 7,
+                "title": "The Mathematics of Maybe: Introduction to Probability",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Predicting What Comes Next: Exploring Sequences and Progressions",
+                "part": 1,
+                "book": "Ganita Manjari - Part 1"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Propositions and their Converses",
+                "part": 2,
+                "book": "Ganita Manjari - Part 2"
+              },
+              {
+                "chapter_no": 10,
+                "title": "How Quantities Combine: Understanding Data",
+                "part": 2,
+                "book": "Ganita Manjari - Part 2"
+              },
+              {
+                "chapter_no": 11,
+                "title": "The World of Algorithms",
+                "part": 2,
+                "book": "Ganita Manjari - Part 2"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Quadrilaterals",
+                "part": 2,
+                "book": "Ganita Manjari - Part 2"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Two Variables, One Line",
+                "part": 2,
+                "book": "Ganita Manjari - Part 2",
+                "topic": "Linear equations in two variables"
+              },
+              {
+                "chapter_no": 14,
+                "title": "Math of Space: Surface Area and Volume",
+                "part": 2,
+                "book": "Ganita Manjari - Part 2"
+              }
+            ]
+          }
+        },
+        {
+          "subject_id": "CBSE_9_SCI",
+          "subject_name": "Science (Exploration) - Class 9 only",
+          "subject_code": "086",
+          "subject_code_status": "unconfirmed for new scheme",
+          "applies_to_classes": [
+            "9"
+          ],
+          "verification": "verified (13 integrated chapters)",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Exploration: Entering the World of Secondary Science",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Cell: The Building Block of Life",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Tissues in Action",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Describing Motion Around Us",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Exploring Mixtures and their Separation",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 6,
+                "title": "How Forces Affect Motion",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Work, Energy and Simple Machines",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Journey Inside the Atom",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Atomic Foundations of Matter",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Sound Waves: Characteristics and Applications",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Reproduction: How Life Continues",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Patterns in Life: Diversity and Classification",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Earth as a System: Energy, Matter and Life",
+                "discipline": "Integrated",
+                "book": "Exploration"
+              }
+            ]
+          }
+        },
+        {
+          "subject_id": "CBSE_9_10_SOC",
+          "subject_name": "Social Science (NCERT: History, Geography, Political Science, Economics)",
+          "subject_code": "087",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Understanding Social Science",
+                "discipline": "Introductory",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 1
+              },
+              {
+                "chapter_no": 2,
+                "title": "Shaping of the Earth's Surface",
+                "discipline": "Geography",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 2
+              },
+              {
+                "chapter_no": 3,
+                "title": "Atmosphere and Climate",
+                "discipline": "Geography",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 3
+              },
+              {
+                "chapter_no": 4,
+                "title": "Early Humans and Beginning of Civilisation",
+                "discipline": "History",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 4
+              },
+              {
+                "chapter_no": 5,
+                "title": "State and Society up to 1000 CE",
+                "discipline": "History",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 5
+              },
+              {
+                "chapter_no": 6,
+                "title": "Democracy",
+                "discipline": "Political Science",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 6
+              },
+              {
+                "chapter_no": 7,
+                "title": "Elections",
+                "discipline": "Political Science",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 7
+              },
+              {
+                "chapter_no": 8,
+                "title": "Building Blocks in Economics: The Problem of Choice",
+                "discipline": "Economics",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 8
+              },
+              {
+                "chapter_no": 9,
+                "title": "The Price Puzzle: What Drives the Market",
+                "discipline": "Economics",
+                "book": "Understanding Society: India and Beyond - Part 1",
+                "book_chapter_no": 9
+              },
+              {
+                "chapter_no": 10,
+                "title": "Oceans and Life",
+                "discipline": "Geography",
+                "book": "Understanding Society: India and Beyond - Part 2",
+                "book_chapter_no": 1
+              },
+              {
+                "chapter_no": 11,
+                "title": "Life on Earth",
+                "discipline": "Geography",
+                "book": "Understanding Society: India and Beyond - Part 2",
+                "book_chapter_no": 2
+              },
+              {
+                "chapter_no": 12,
+                "title": "Resistance and Resilience, 1000-1700 CE",
+                "discipline": "History",
+                "book": "Understanding Society: India and Beyond - Part 2",
+                "book_chapter_no": 3
+              },
+              {
+                "chapter_no": 13,
+                "title": "Governance and Public Policy",
+                "discipline": "Political Science",
+                "book": "Understanding Society: India and Beyond - Part 2",
+                "book_chapter_no": 4
+              },
+              {
+                "chapter_no": 14,
+                "title": "Managing Your Personal Finances",
+                "discipline": "Economics",
+                "book": "Understanding Society: India and Beyond - Part 2",
+                "book_chapter_no": 5
+              },
+              {
+                "chapter_no": 15,
+                "title": "From Ideas to Startups",
+                "discipline": "Economics",
+                "book": "Understanding Society: India and Beyond - Part 2",
+                "book_chapter_no": 6
+              }
+            ],
+            "10": [
+              {
+                "book": "India and the Contemporary World - II (History)",
+                "chapter_no": 1,
+                "title": "The Rise of Nationalism in Europe"
+              },
+              {
+                "book": "India and the Contemporary World - II (History)",
+                "chapter_no": 2,
+                "title": "Nationalism in India"
+              },
+              {
+                "book": "India and the Contemporary World - II (History)",
+                "chapter_no": 3,
+                "title": "The Making of a Global World"
+              },
+              {
+                "book": "India and the Contemporary World - II (History)",
+                "chapter_no": 4,
+                "title": "The Age of Industrialisation"
+              },
+              {
+                "book": "India and the Contemporary World - II (History)",
+                "chapter_no": 5,
+                "title": "Print Culture and the Modern World"
+              },
+              {
+                "book": "Contemporary India - II (Geography)",
+                "chapter_no": 6,
+                "title": "Resources and Development"
+              },
+              {
+                "book": "Contemporary India - II (Geography)",
+                "chapter_no": 7,
+                "title": "Forest and Wildlife Resources"
+              },
+              {
+                "book": "Contemporary India - II (Geography)",
+                "chapter_no": 8,
+                "title": "Water Resources"
+              },
+              {
+                "book": "Contemporary India - II (Geography)",
+                "chapter_no": 9,
+                "title": "Agriculture"
+              },
+              {
+                "book": "Contemporary India - II (Geography)",
+                "chapter_no": 10,
+                "title": "Minerals and Energy Resources"
+              },
+              {
+                "book": "Contemporary India - II (Geography)",
+                "chapter_no": 11,
+                "title": "Manufacturing Industries"
+              },
+              {
+                "book": "Contemporary India - II (Geography)",
+                "chapter_no": 12,
+                "title": "Lifelines of National Economy"
+              },
+              {
+                "book": "Democratic Politics - II (Political Science)",
+                "chapter_no": 13,
+                "title": "Power-sharing"
+              },
+              {
+                "book": "Democratic Politics - II (Political Science)",
+                "chapter_no": 14,
+                "title": "Federalism"
+              },
+              {
+                "book": "Democratic Politics - II (Political Science)",
+                "chapter_no": 15,
+                "title": "Gender, Religion and Caste"
+              },
+              {
+                "book": "Democratic Politics - II (Political Science)",
+                "chapter_no": 16,
+                "title": "Political Parties"
+              },
+              {
+                "book": "Democratic Politics - II (Political Science)",
+                "chapter_no": 17,
+                "title": "Outcomes of Democracy"
+              },
+              {
+                "book": "Understanding Economic Development (Economics)",
+                "chapter_no": 18,
+                "title": "Development"
+              },
+              {
+                "book": "Understanding Economic Development (Economics)",
+                "chapter_no": 19,
+                "title": "Sectors of the Indian Economy"
+              },
+              {
+                "book": "Understanding Economic Development (Economics)",
+                "chapter_no": 20,
+                "title": "Money and Credit"
+              },
+              {
+                "book": "Understanding Economic Development (Economics)",
+                "chapter_no": 21,
+                "title": "Globalisation and the Indian Economy"
+              },
+              {
+                "book": "Understanding Economic Development (Economics)",
+                "chapter_no": 22,
+                "title": "Consumer Rights (Project Work)"
+              }
+            ]
+          },
+          "legacy_classes": {
+            "9": [
+              {
+                "book": "India and the Contemporary World - I (History)",
+                "chapter_no": 1,
+                "title": "The French Revolution"
+              },
+              {
+                "book": "India and the Contemporary World - I (History)",
+                "chapter_no": 2,
+                "title": "Socialism in Europe and the Russian Revolution"
+              },
+              {
+                "book": "India and the Contemporary World - I (History)",
+                "chapter_no": 3,
+                "title": "Nazism and the Rise of Hitler"
+              },
+              {
+                "book": "India and the Contemporary World - I (History)",
+                "chapter_no": 4,
+                "title": "Forest Society and Colonialism"
+              },
+              {
+                "book": "India and the Contemporary World - I (History)",
+                "chapter_no": 5,
+                "title": "Pastoralists in the Modern World"
+              },
+              {
+                "book": "Contemporary India - I (Geography)",
+                "chapter_no": 6,
+                "title": "India - Size and Location"
+              },
+              {
+                "book": "Contemporary India - I (Geography)",
+                "chapter_no": 7,
+                "title": "Physical Features of India"
+              },
+              {
+                "book": "Contemporary India - I (Geography)",
+                "chapter_no": 8,
+                "title": "Drainage"
+              },
+              {
+                "book": "Contemporary India - I (Geography)",
+                "chapter_no": 9,
+                "title": "Climate"
+              },
+              {
+                "book": "Contemporary India - I (Geography)",
+                "chapter_no": 10,
+                "title": "Natural Vegetation and Wildlife"
+              },
+              {
+                "book": "Contemporary India - I (Geography)",
+                "chapter_no": 11,
+                "title": "Population"
+              },
+              {
+                "book": "Democratic Politics - I (Political Science)",
+                "chapter_no": 12,
+                "title": "What is Democracy? Why Democracy?"
+              },
+              {
+                "book": "Democratic Politics - I (Political Science)",
+                "chapter_no": 13,
+                "title": "Constitutional Design"
+              },
+              {
+                "book": "Democratic Politics - I (Political Science)",
+                "chapter_no": 14,
+                "title": "Electoral Politics"
+              },
+              {
+                "book": "Democratic Politics - I (Political Science)",
+                "chapter_no": 15,
+                "title": "Working of Institutions"
+              },
+              {
+                "book": "Democratic Politics - I (Political Science)",
+                "chapter_no": 16,
+                "title": "Democratic Rights"
+              },
+              {
+                "book": "Economics",
+                "chapter_no": 17,
+                "title": "The Story of Village Palampur"
+              },
+              {
+                "book": "Economics",
+                "chapter_no": 18,
+                "title": "People as Resource"
+              },
+              {
+                "book": "Economics",
+                "chapter_no": 19,
+                "title": "Poverty as a Challenge"
+              },
+              {
+                "book": "Economics",
+                "chapter_no": 20,
+                "title": "Food Security in India"
+              }
+            ]
+          },
+          "legacy_note": "legacy_classes['9'] = old four-book NCERT Class 9 (valid up to 2025-26). Class 10 list unchanged and verified (22 chapters).",
+          "verification": "class 9 verified (new book, 15 chapters; Part 2 has 6 chapters); class 10 verified (22 chapters)",
+          "class_9_book_names": [
+            "Understanding Society: India and Beyond - Part 1",
+            "Understanding Society: India and Beyond - Part 2"
+          ]
+        },
+        {
+          "subject_id": "CBSE_9_10_ENG",
+          "subject_name": "English Language and Literature",
+          "subject_code": "184",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "How I Taught My Grandmother to Read",
+                "paired_poem": "Bharat Our Land",
+                "book": "Kaveri"
+              },
+              {
+                "chapter_no": 2,
+                "title": "The Pot Maker",
+                "paired_poem": "Gifts of Grace: Honouring Our Vocations",
+                "book": "Kaveri"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Winds of Change",
+                "paired_poem": "Canvas of Soil",
+                "book": "Kaveri"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Vitamin-M",
+                "paired_poem": "I Cannot Remember My Mother",
+                "book": "Kaveri"
+              },
+              {
+                "chapter_no": 5,
+                "title": "The World of Limitless Possibilities",
+                "paired_poem": "Nine Gold Medals",
+                "book": "Kaveri"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Twin Melodies",
+                "paired_poem": "A Friend Found in Music",
+                "book": "Kaveri"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Carrier of Words",
+                "paired_poem": "Words",
+                "book": "Kaveri"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Follow That Dream",
+                "paired_poem": "Believe in Yourself",
+                "book": "Kaveri"
+              }
+            ],
+            "10": [
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 1,
+                "title": "A Letter to God"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 2,
+                "title": "Nelson Mandela: Long Walk to Freedom"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 3,
+                "title": "Two Stories about Flying"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 4,
+                "title": "From the Diary of Anne Frank"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 5,
+                "title": "Glimpses of India"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 6,
+                "title": "Mijbil the Otter"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 7,
+                "title": "Madam Rides the Bus"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 8,
+                "title": "The Sermon at Benares"
+              },
+              {
+                "book": "First Flight (Prose)",
+                "chapter_no": 9,
+                "title": "The Proposal"
+              },
+              {
+                "book": "First Flight (Poetry)",
+                "chapter_no": 10,
+                "title": "Dust of Snow / Fire and Ice / A Tiger in the Zoo / How to Tell Wild Animals / The Ball Poem / Amanda! / The Trees / Fog / The Tale of Custard the Dragon / For Anne Gregory"
+              },
+              {
+                "book": "Footprints Without Feet",
+                "chapter_no": 11,
+                "title": "A Triumph of Surgery / The Thief's Story / The Midnight Visitor / A Question of Trust / Footprints without Feet / The Making of a Scientist / The Necklace / Bholi / The Book That Saved the Earth"
+              }
+            ]
+          },
+          "legacy_classes": {
+            "9": [
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 1,
+                "title": "The Fun They Had"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 2,
+                "title": "The Sound of Music"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 3,
+                "title": "The Little Girl"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 4,
+                "title": "A Truly Beautiful Mind"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 5,
+                "title": "The Snake and the Mirror"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 6,
+                "title": "My Childhood"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 7,
+                "title": "Reach for the Top"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 8,
+                "title": "Kathmandu"
+              },
+              {
+                "book": "Beehive (Prose)",
+                "chapter_no": 9,
+                "title": "If I Were You"
+              },
+              {
+                "book": "Beehive (Poetry)",
+                "chapter_no": 10,
+                "title": "The Road Not Taken / Wind / Rain on the Roof / The Lake Isle of Innisfree / A Legend of the Northland / No Men Are Foreign / On Killing a Tree / A Slumber Did My Spirit Seal"
+              },
+              {
+                "book": "Moments (Supplementary)",
+                "chapter_no": 11,
+                "title": "The Lost Child / The Adventures of Toto / Iswaran the Storyteller / In the Kingdom of Fools / The Happy Prince / The Last Leaf / A House is Not a Home / The Beggar"
+              }
+            ]
+          },
+          "legacy_note": "legacy_classes['9'] = Beehive + Moments (valid up to 2025-26). Kaveri: 8 prose chapters each paired with a poem (some sources say 7 units - chapter count conflict).",
+          "verification": "class 9 partially_verified (titles from eSaral/AglaSem; count conflict 7 vs 8); class 10 unverified (unchanged books)"
+        },
+        {
+          "subject_id": "CBSE_9_10_IT_AI",
+          "subject_name": "Information Technology (402) / Artificial Intelligence (417) / Computer Applications (165)",
+          "subject_code": "402_417_165",
+          "classes": {
+            "9": [
+              {
+                "track": "Employability Skills",
+                "chapter_no": 1,
+                "title": "Communication Skills-I, Self-Management Skills-I, ICT Skills-I, Entrepreneurial Skills-I, Green Skills-I"
+              },
+              {
+                "track": "IT (402)",
+                "chapter_no": 2,
+                "title": "Introduction to IT-ITeS Industry, Data Entry & Keyboarding Skills, Digital Documentation, Electronic Spreadsheet, Digital Presentation"
+              },
+              {
+                "track": "AI (417)",
+                "chapter_no": 3,
+                "title": "AI Reflection, Project Cycle and Ethics, Data Literacy, Math for AI, Introduction to Generative AI, Introduction to Python"
+              }
+            ],
+            "10": [
+              {
+                "track": "Employability Skills",
+                "chapter_no": 1,
+                "title": "Communication Skills-II, Self-Management Skills-II, ICT Skills-II, Entrepreneurial Skills-II, Green Skills-II"
+              },
+              {
+                "track": "IT (402)",
+                "chapter_no": 2,
+                "title": "Digital Documentation (Advanced), Electronic Spreadsheet (Advanced), Database Management System, Web Applications and Security"
+              },
+              {
+                "track": "AI (417)",
+                "chapter_no": 3,
+                "title": "Revisiting AI Project Cycle & Ethical Frameworks, Advanced Concepts of Modeling in AI, Evaluating Models, Statistical Data, Computer Vision, Natural Language Processing, Advance Python"
+              }
+            ]
+          },
+          "verification": "unverified (CT & AI and vocational changes announced for Class 9-10; units not re-checked)"
+        },
+        {
+          "subject_id": "CBSE_9_HIN",
+          "subject_name": "Hindi (Ganga) - Class 9",
+          "subject_code": null,
+          "applies_to_classes": [
+            "9"
+          ],
+          "verification": "pending_verification",
+          "note": "New NCERT Class 9 Hindi book Ganga (about 12 chapters); chapter list not captured. Sanskrit book (Sharada) also new.",
+          "classes": {
+            "9": []
+          }
+        }
+      ],
+      "inherits_shared_core_classes": [
+        "10"
+      ],
+      "scheme_notes_2026_27": {
+        "status": "reported by multiple secondary sources; verify on cbseacademic.nic.in",
+        "class_9": "New scheme and all-new NCERT books from 2026-27 (Class 9 is assessed by school annual exam).",
+        "class_10": "2026-27 batch follows the existing scheme and books (Maths Basic 241 still valid for 2027 boards).",
+        "maths_science_levels": "Class 9: Maths and Science at two levels (standard + advanced); Basic/Standard Maths (241/041) discontinued from Class 9 2026-27. Advanced paper details are from a single source.",
+        "languages": "R1/R2/R3 three-language framework; R3 is school-assessed only; Communicative English discontinued for new Class 9.",
+        "subject_codes_class_9": "New Class 9 subject codes not confirmed - codes below are the existing (Class 10) codes."
+      }
+    },
+    "CISCE_ICSE": {
+      "board_name": "Council for the Indian School Certificate Examinations (CISCE) - ICSE (Indian Certificate of Secondary Education), Class 9 & 10",
+      "structure": "Group I (Compulsory: English, Second Language, History & Civics, Geography) + Group II (Any 2: Maths, Science [Physics, Chemistry, Biology], Economics, Commercial Studies) + Group III (Any 1: Computer Applications, Economic Applications, Commercial Applications, Art, PE, Home Science) | NOTE: Second Language is compulsory in Group I but has no entry yet (ICSE_9_10_SECOND_LANG placeholder).",
+      "inherits_shared_ncert_math_science": false,
+      "board_specific_subjects": [
+        {
+          "subject_id": "ICSE_9_10_ENG",
+          "subject_name": "English (Paper 1: Language & Paper 2: Literature - Julius Caesar & Treasure Chest)",
+          "subject_code": "01",
+          "group": "Group I",
+          "classes": {
+            "9": [
+              {
+                "section": "Drama (Shakespeare)",
+                "chapter_no": 1,
+                "title": "Julius Caesar - Acts I & II"
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 2,
+                "title": "Bonku Babu's Friend (Satyajit Ray)",
+                "book_unit_no": 1
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 3,
+                "title": "Oliver Asks for More (Charles Dickens)",
+                "book_unit_no": 2
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 4,
+                "title": "The Model Millionaire (Oscar Wilde)",
+                "book_unit_no": 3
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 5,
+                "title": "Home-coming (Rabindranath Tagore)"
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 6,
+                "title": "The Boy Who Broke the Bank (Ruskin Bond)",
+                "book_unit_no": 5
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 7,
+                "title": "The Night Mail (W.H. Auden)",
+                "book_unit_no": 5
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 8,
+                "title": "Skimbleshanks: The Railway Cat (T.S. Eliot)"
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 9,
+                "title": "I Remember, I Remember (Thomas Hood)",
+                "book_unit_no": 3
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 10,
+                "title": "A Doctor's Journal Entry for August 6, 1945 (Vikram Seth)",
+                "book_unit_no": 4
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 11,
+                "title": "A Work of Artifice (Marge Piercy)"
+              }
+            ],
+            "10": [
+              {
+                "section": "Drama (Shakespeare)",
+                "chapter_no": 1,
+                "title": "Julius Caesar - Acts III, IV & V"
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 2,
+                "title": "With the Photographer (Stephen Leacock)",
+                "book_unit_no": 11
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 3,
+                "title": "The Elevator (William Sleator)",
+                "book_unit_no": 12
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 4,
+                "title": "The Girl Who Can (Ama Ata Aidoo)",
+                "book_unit_no": 13
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 5,
+                "title": "The Pedestrian (Ray Bradbury)",
+                "book_unit_no": 14
+              },
+              {
+                "section": "Treasure Chest (Short Stories)",
+                "chapter_no": 6,
+                "title": "The Last Lesson (Alphonse Daudet)",
+                "book_unit_no": 15
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 7,
+                "title": "Haunted Houses (H.W. Longfellow)",
+                "book_unit_no": 11
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 8,
+                "title": "The Glove and the Lions (Leigh Hunt)",
+                "book_unit_no": 12
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 9,
+                "title": "When Great Trees Fall (Maya Angelou)",
+                "book_unit_no": 13
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 10,
+                "title": "A Considerable Speck (Robert Frost)",
+                "book_unit_no": 14
+              },
+              {
+                "section": "Treasure Chest (Poetry)",
+                "chapter_no": 11,
+                "title": "The Power of Music (Sukumar Ray)",
+                "book_unit_no": 15
+              }
+            ]
+          },
+          "verification": "verified (Julius Caesar split and Treasure Chest texts match 2026-27 school syllabi)",
+          "subject_code_status": "verified (01)"
+        },
+        {
+          "subject_id": "ICSE_9_10_MATH",
+          "subject_name": "Mathematics",
+          "subject_code": "51",
+          "group": "Group II",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Rational and Irrational Numbers"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Compound Interest"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Expansions"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Factorisation"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Simultaneous Linear Equations in Two Variables"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Problems on Simultaneous Linear Equations"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Indices (Exponents)"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Logarithms"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Triangles (Congruency in Triangles)"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Isosceles Triangles"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Inequalities"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Mid-point and Its Converse"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Pythagoras Theorem"
+              },
+              {
+                "chapter_no": 14,
+                "title": "Rectilinear Figures (Quadrilaterals)"
+              },
+              {
+                "chapter_no": 15,
+                "title": "Construction of Polygons"
+              },
+              {
+                "chapter_no": 16,
+                "title": "Area Theorems"
+              },
+              {
+                "chapter_no": 17,
+                "title": "Circle"
+              },
+              {
+                "chapter_no": 18,
+                "title": "Statistics (Mean and Median)"
+              },
+              {
+                "chapter_no": 19,
+                "title": "Area and Perimeter of Plane Figures"
+              },
+              {
+                "chapter_no": 20,
+                "title": "Solids (Surface Area and Volume of 3D Solids)"
+              },
+              {
+                "chapter_no": 21,
+                "title": "Trigonometrical Ratios"
+              },
+              {
+                "chapter_no": 22,
+                "title": "Trigonometrical Ratios of Standard Angles"
+              },
+              {
+                "chapter_no": 23,
+                "title": "Solution of Right Triangles"
+              },
+              {
+                "chapter_no": 24,
+                "title": "Complementary Angles"
+              },
+              {
+                "chapter_no": 25,
+                "title": "Coordinate Geometry (Distance Formula & Graphical Solution)"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "Goods and Services Tax (GST)"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Banking (Recurring Deposit Accounts)"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Shares and Dividends"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Linear Inequations"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Quadratic Equations in One Variable"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Factorisation (Remainder and Factor Theorems)"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Ratio and Proportion"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Matrices"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Arithmetic and Geometric Progression"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Reflection"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Section and Mid-Point Formula"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Equation of a Straight Line"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Similarity"
+              },
+              {
+                "chapter_no": 14,
+                "title": "Loci"
+              },
+              {
+                "chapter_no": 15,
+                "title": "Circles (Angle, Cyclic & Tangent Properties)"
+              },
+              {
+                "chapter_no": 16,
+                "title": "Constructions (Circles)"
+              },
+              {
+                "chapter_no": 17,
+                "title": "Mensuration (Cylinder, Cone and Sphere)"
+              },
+              {
+                "chapter_no": 18,
+                "title": "Trigonometrical Identities"
+              },
+              {
+                "chapter_no": 19,
+                "title": "Heights and Distances"
+              },
+              {
+                "chapter_no": 20,
+                "title": "Statistics (Measures of Central Tendency, Histograms & Ogives)"
+              },
+              {
+                "chapter_no": 21,
+                "title": "Probability"
+              }
+            ]
+          },
+          "verification": "unverified",
+          "subject_code_status": "unverified (sources conflict)"
+        },
+        {
+          "subject_id": "ICSE_9_10_PHY",
+          "subject_name": "Physics (Science Paper 1)",
+          "subject_code": "52_P1",
+          "group": "Group II",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Measurements and Experimentation"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Motion in One Dimension"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Laws of Motion"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Pressure in Fluids and Atmospheric Pressure"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Upthrust in Fluids, Archimedes' Principle and Floatation"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Heat and Energy"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Reflection of Light"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Propagation of Sound Waves"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Current Electricity"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Magnetism"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "Force"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Work, Energy and Power"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Machines"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Refraction of Light at Plane Surfaces"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Refraction through a Lens"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Spectrum"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Sound"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Current Electricity"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Household Circuits"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Electro-magnetism"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Calorimetry"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Radioactivity"
+              }
+            ]
+          },
+          "verification": "class 10 partially_verified (matches school syllabus chapters); class 9 unverified",
+          "subject_code_status": "unverified (sources conflict)"
+        },
+        {
+          "subject_id": "ICSE_9_10_CHEM",
+          "subject_name": "Chemistry (Science Paper 2)",
+          "subject_code": "52_P2",
+          "group": "Group II",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "The Language of Chemistry"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Chemical Changes and Reactions"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Water"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Atomic Structure and Chemical Bonding"
+              },
+              {
+                "chapter_no": 5,
+                "title": "The Periodic Table"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Study of the First Element - Hydrogen"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Study of Gas Laws"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Atmospheric Pollution"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "Periodic Table, Periodic Properties and Variations of Properties"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Chemical Bonding"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Acids, Bases and Salts"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Analytical Chemistry"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Mole Concept and Stoichiometry"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Electrolysis"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Metallurgy"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Study of Compounds - Hydrogen Chloride"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Study of Compounds - Ammonia"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Study of Compounds - Nitric Acid"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Study of Compounds - Sulphuric Acid"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Organic Chemistry"
+              }
+            ]
+          },
+          "verification": "unverified - CISCE reportedly revised this subject for 2026-27; check cisce.org",
+          "revised_for_2026_27": true,
+          "subject_code_status": "unverified (sources conflict)"
+        },
+        {
+          "subject_id": "ICSE_9_10_BIO",
+          "subject_name": "Biology (Science Paper 3)",
+          "subject_code": "52_P3",
+          "group": "Group II",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Introducing Biology"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Cell: The Unit of Life"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Tissues: Plant and Animal Tissues"
+              },
+              {
+                "chapter_no": 4,
+                "title": "The Flower"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Pollination and Fertilization"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Seeds - Structure and Germination"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Respiration in Plants"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Five Kingdom Classification"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Economic Importance of Bacteria and Fungi"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Nutrition"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Digestive System"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Skeleton - Movement and Locomotion"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Skin - The Jack of All Trades"
+              },
+              {
+                "chapter_no": 14,
+                "title": "The Respiratory System"
+              },
+              {
+                "chapter_no": 15,
+                "title": "Hygiene"
+              },
+              {
+                "chapter_no": 16,
+                "title": "Diseases: Cause and Control"
+              },
+              {
+                "chapter_no": 17,
+                "title": "Aids to Health"
+              },
+              {
+                "chapter_no": 18,
+                "title": "Health Organisations"
+              },
+              {
+                "chapter_no": 19,
+                "title": "Waste Generation and Management"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "Structure of Chromosomes, Cell Cycle and Cell Division"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Genetics - Some Basic Fundamentals"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Absorption by Roots - The Processes Involved"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Transpiration"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Photosynthesis"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Chemical Coordination in Plants"
+              },
+              {
+                "chapter_no": 7,
+                "title": "The Circulatory System"
+              },
+              {
+                "chapter_no": 8,
+                "title": "The Excretory System"
+              },
+              {
+                "chapter_no": 9,
+                "title": "The Nervous System"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Sense Organs"
+              },
+              {
+                "chapter_no": 11,
+                "title": "The Endocrine System"
+              },
+              {
+                "chapter_no": 12,
+                "title": "The Reproductive System"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Human Evolution"
+              },
+              {
+                "chapter_no": 14,
+                "title": "Population - The Increasing Numbers and Rising Problems"
+              },
+              {
+                "chapter_no": 15,
+                "title": "Pollution - A Rising Environmental Problem"
+              }
+            ]
+          },
+          "verification": "unverified",
+          "subject_code_status": "unverified (sources conflict)"
+        },
+        {
+          "subject_id": "ICSE_9_10_HCG1",
+          "subject_name": "History and Civics (H.C.G. Paper 1)",
+          "subject_code": "50_P1",
+          "group": "Group I",
+          "classes": {
+            "9": [
+              {
+                "section": "History",
+                "chapter_no": 1,
+                "title": "The Harappan Civilisation"
+              },
+              {
+                "section": "History",
+                "chapter_no": 2,
+                "title": "The Vedic Period"
+              },
+              {
+                "section": "History",
+                "chapter_no": 3,
+                "title": "Jainism and Buddhism"
+              },
+              {
+                "section": "History",
+                "chapter_no": 4,
+                "title": "The Mauryan Empire"
+              },
+              {
+                "section": "History",
+                "chapter_no": 5,
+                "title": "The Sangam Age"
+              },
+              {
+                "section": "History",
+                "chapter_no": 6,
+                "title": "The Age of the Guptas"
+              },
+              {
+                "section": "History",
+                "chapter_no": 7,
+                "title": "Medieval India - The Cholas"
+              },
+              {
+                "section": "History",
+                "chapter_no": 8,
+                "title": "Medieval India - The Delhi Sultanate"
+              },
+              {
+                "section": "History",
+                "chapter_no": 9,
+                "title": "Medieval India - The Mughal Empire"
+              },
+              {
+                "section": "History",
+                "chapter_no": 10,
+                "title": "Medieval India - Composite Culture"
+              },
+              {
+                "section": "History",
+                "chapter_no": 11,
+                "title": "The Modern Age in Europe - Renaissance"
+              },
+              {
+                "section": "History",
+                "chapter_no": 12,
+                "title": "The Modern Age in Europe - Reformation"
+              },
+              {
+                "section": "History",
+                "chapter_no": 13,
+                "title": "The Modern Age in Europe - Industrial Revolution"
+              },
+              {
+                "section": "Civics",
+                "chapter_no": 14,
+                "title": "Our Constitution and Its Salient Features"
+              },
+              {
+                "section": "Civics",
+                "chapter_no": 15,
+                "title": "Fundamental Rights and Duties"
+              },
+              {
+                "section": "Civics",
+                "chapter_no": 16,
+                "title": "Directive Principles of State Policy"
+              },
+              {
+                "section": "Civics",
+                "chapter_no": 17,
+                "title": "Elections and the Election Commission"
+              },
+              {
+                "section": "Civics",
+                "chapter_no": 18,
+                "title": "Local Self-Government - Rural and Urban"
+              }
+            ],
+            "10": [
+              {
+                "section": "Civics",
+                "chapter_no": 1,
+                "title": "The Union Legislature (The Union Parliament)"
+              },
+              {
+                "section": "Civics",
+                "chapter_no": 2,
+                "title": "The Union Executive (The President, Vice-President, Prime Minister and Council of Ministers)"
+              },
+              {
+                "section": "Civics",
+                "chapter_no": 3,
+                "title": "The Judiciary (The Supreme Court, High Courts and Subordinate Courts)"
+              },
+              {
+                "section": "History",
+                "chapter_no": 4,
+                "title": "The First War of Independence, 1857"
+              },
+              {
+                "section": "History",
+                "chapter_no": 5,
+                "title": "Growth of Nationalism"
+              },
+              {
+                "section": "History",
+                "chapter_no": 6,
+                "title": "First Phase of the Indian National Movement (1885-1907)"
+              },
+              {
+                "section": "History",
+                "chapter_no": 7,
+                "title": "Second Phase of the Indian National Movement (1905-1916)"
+              },
+              {
+                "section": "History",
+                "chapter_no": 8,
+                "title": "Mahatma Gandhi and the National Movement"
+              },
+              {
+                "section": "History",
+                "chapter_no": 9,
+                "title": "Quit India Movement"
+              },
+              {
+                "section": "History",
+                "chapter_no": 10,
+                "title": "Forward Bloc and The INA"
+              },
+              {
+                "section": "History",
+                "chapter_no": 11,
+                "title": "Independence and Partition of India"
+              },
+              {
+                "section": "History",
+                "chapter_no": 12,
+                "title": "The First World War"
+              },
+              {
+                "section": "History",
+                "chapter_no": 13,
+                "title": "Rise of Dictatorships (Fascism and Nazism)"
+              },
+              {
+                "section": "History",
+                "chapter_no": 14,
+                "title": "The Second World War"
+              },
+              {
+                "section": "History",
+                "chapter_no": 15,
+                "title": "United Nations and its Major Agencies"
+              },
+              {
+                "section": "History",
+                "chapter_no": 16,
+                "title": "Non-Aligned Movement"
+              }
+            ]
+          },
+          "verification": "unverified - CISCE reportedly revised this subject for 2026-27; check cisce.org",
+          "revised_for_2026_27": true,
+          "subject_code_status": "unverified (sources conflict)"
+        },
+        {
+          "subject_id": "ICSE_9_10_HCG2",
+          "subject_name": "Geography (H.C.G. Paper 2)",
+          "subject_code": "50_P2",
+          "group": "Group I",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Earth as a Planet"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Geographic Grid - Latitudes and Longitudes"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Rotation and Revolution"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Earth's Structure"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Landforms of the Earth"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Rocks"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Volcanoes"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Earthquakes"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Weathering and Denudation"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Hydrosphere"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Composition and Structure of the Atmosphere"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Insolation"
+              },
+              {
+                "chapter_no": 13,
+                "title": "Atmospheric Pressure and Winds"
+              },
+              {
+                "chapter_no": 14,
+                "title": "Humidity"
+              },
+              {
+                "chapter_no": 15,
+                "title": "Pollution - Types, Sources, Effects and Preventive Measures"
+              },
+              {
+                "chapter_no": 16,
+                "title": "Natural Regions of the World"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "Interpretation of Topographical Maps"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Map of India"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Location, Extent and Physical Features of India",
+                "status": "reportedly removed from the Class 10 theory paper for 2027 (map work only) - single source, verify on cisce.org"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Climate of India"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Soil Resources"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Natural Vegetation"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Water Resources"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Mineral and Energy Resources"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Agriculture in India"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Manufacturing Industries (Agro-based and Mineral-based)"
+              },
+              {
+                "chapter_no": 11,
+                "title": "Transport"
+              },
+              {
+                "chapter_no": 12,
+                "title": "Waste Management"
+              }
+            ]
+          },
+          "verification": "unverified - CISCE reportedly revised this subject for 2026-27; check cisce.org",
+          "revised_for_2026_27": true,
+          "subject_code_status": "unverified (sources conflict)"
+        },
+        {
+          "subject_id": "ICSE_9_10_CA_JAVA",
+          "subject_name": "Computer Applications (Java)",
+          "subject_code": "86",
+          "group": "Group III",
+          "classes": {
+            "9": [
+              {
+                "chapter_no": 1,
+                "title": "Introduction to Object Oriented Programming Concepts"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Elementary Concept of Objects and Classes"
+              },
+              {
+                "chapter_no": 3,
+                "title": "Values and Data Types"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Operators in Java"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Input in Java (Scanner Class)"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Mathematical Library Methods"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Conditional Constructs in Java (if, switch)"
+              },
+              {
+                "chapter_no": 8,
+                "title": "Iterative Constructs in Java (for, while, do-while)"
+              },
+              {
+                "chapter_no": 9,
+                "title": "Nested for Loops"
+              },
+              {
+                "chapter_no": 10,
+                "title": "Computing and Ethics"
+              }
+            ],
+            "10": [
+              {
+                "chapter_no": 1,
+                "title": "Revision of Class IX Syllabus"
+              },
+              {
+                "chapter_no": 2,
+                "title": "Class as the Basis of all Computation"
+              },
+              {
+                "chapter_no": 3,
+                "title": "User-defined Methods"
+              },
+              {
+                "chapter_no": 4,
+                "title": "Constructors"
+              },
+              {
+                "chapter_no": 5,
+                "title": "Library Classes (Wrapper Classes)"
+              },
+              {
+                "chapter_no": 6,
+                "title": "Encapsulation and Access Specifiers"
+              },
+              {
+                "chapter_no": 7,
+                "title": "Arrays (Single and Double Dimensional - Searching & Sorting)"
+              },
+              {
+                "chapter_no": 8,
+                "title": "String Handling"
+              }
+            ]
+          },
+          "verification": "unverified",
+          "subject_code_status": "verified (86)"
+        },
+        {
+          "subject_id": "ICSE_9_10_COMM_ECON",
+          "subject_name": "Commercial Studies (63) & Economics (64)",
+          "subject_code": "63_64",
+          "group": "Group II",
+          "classes": {
+            "9": [
+              {
+                "track": "Commercial Studies",
+                "chapter_no": 1,
+                "title": "Commercial and Non-Commercial Activities, Business Activities, Profit & Non-Profit Organisations, Classification of Commercial Organisations, Sole Proprietorship, Partnership, Joint Stock Company, Cooperative Society, Public Sector Enterprises, Marketing & Sales, Finance & Accounts, Human Resources, Production, Communication, Banking, Trade"
+              },
+              {
+                "track": "Economics",
+                "chapter_no": 2,
+                "title": "Introduction to Economics, Basic Economic Entities, Basic Problems of an Economy, Types of Economies, Characteristics of the Indian Economy, Main Sectors of the Indian Economy (Agriculture, Industry, Services), Other Sectors of the Indian Economy, Economic Infrastructure, Social Infrastructure, Consumer Awareness, Globalisation"
+              }
+            ],
+            "10": [
+              {
+                "track": "Commercial Studies",
+                "chapter_no": 1,
+                "title": "Stakeholders in Commercial Organisations, Marketing and Sales (Product, Service, Pricing, Advertising, Consumer Protection, E-commerce), Finance and Accounting (Capital & Revenue, Final Accounts, Costs, Budgeting, Sources of Finance), Human Resources (Recruitment, Selection, Training, Industrial Relations), Logistics, Banking (Central & Commercial Banks), Environment Protection"
+              },
+              {
+                "track": "Economics",
+                "chapter_no": 2,
+                "title": "Factors of Production (Land, Labour, Capital, Entrepreneur), Elementary Theory of Demand & Elasticity, Theory of Supply, Meaning and Types of Markets, Meaning and Functions of Money, Commercial Banks and Central Bank, Inflation, Public Finance (Public Revenue, Public Expenditure, Public Debt), Consumer Awareness"
+              }
+            ]
+          },
+          "verification": "unverified - CISCE reportedly revised this subject for 2026-27; check cisce.org",
+          "revised_for_2026_27": true,
+          "subject_code_status": "verified (63 Commercial Studies, 64 Economics)"
+        },
+        {
+          "subject_id": "ICSE_9_10_SECOND_LANG",
+          "subject_name": "Second Language (Hindi / regional)",
+          "subject_code": null,
+          "group": "Group I",
+          "verification": "pending_verification",
+          "classes": {
+            "9": [],
+            "10": []
+          }
+        },
+        {
+          "subject_id": "ICSE_9_10_ROBOTICS_AI",
+          "subject_name": "Robotics & Artificial Intelligence (new Group III option, reported)",
+          "subject_code": null,
+          "group": "Group III",
+          "verification": "unverified (single source; verify on cisce.org)",
+          "classes": {
+            "9": [],
+            "10": []
+          }
+        }
+      ],
+      "verification_note": "English texts verified for 2026-27. CISCE reportedly revised Geography, History & Civics, Chemistry, Economics, Economic Applications and Commercial Studies for 2026-27 (single secondary source). Subject codes mostly unverified.",
+      "subject_codes_verified": {
+        "Economics": "64",
+        "Commercial Studies": "63",
+        "Computer Applications": "86",
+        "English": "01"
+      }
+    }
+  },
+  "verification_note": "v2026.2 (Nov 2026): cross-verified against syllabus/textbook pages and school syllabi - mostly secondary sources, not official board PDFs. Statuses: verified | partially_verified | unverified | pending_verification | legacy. Re-check cisce.org, cbseacademic.nic.in and kseab.karnataka.gov.in before production use. KEY CHANGE: NCERT replaced all Class 9 books for 2026-27 (CBSE). Class 10 books are unchanged for 2026-27; new Class 10 books are expected later."
+}

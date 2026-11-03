@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-11-03T09:18:58.789128",
+  "updated_at": "2026-11-03T09:27:42.415059",
+  "datasets": {
+    "questions": {
+      "records": 150,
+      "sha256": "051c21ca5f85d526d54079506a3d6361ceeb12a511ef7fae5ac6b456ea6b462a",
+      "bytes": 144254
+    },
+    "syllabus": {
+      "records": 20,
+      "sha256": "3edfb336351e284c2c597f01444420b19ae18e1fd4ac11076b0b3fff68d1d8bb",
+      "bytes": 8437
+    },
+    "concepts": {
+      "records": 20,
+      "sha256": "2ebbfb6b2191328a39c238929756f7f569cc4ec1d7d43ea82f002357d90ff748",
+      "bytes": 14580
+    },
+    "flashcards": {
+      "records": 10,
+      "sha256": "e5e88f63f6c48c1b6d319710e287734dd09a0d0c5a65e66120716e5bd30b3fcb",
+      "bytes": 3835
+    },
+    "rubrics": {
+      "records": 20,
+      "sha256": "c549e20a9e3025505a623edf7b84dcceac8aa5b5305d9ddbf956f99b87efdd5a",
+      "bytes": 11524
+    }
+  }
+}

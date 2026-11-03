@@ -1,0 +1,10 @@
+{
+  "total_tasks": 11664,
+  "completed_tasks": 22,
+  "pending_tasks": 11636,
+  "failed_tasks": 6,
+  "total_records_committed": 220,
+  "sqlite_db_path": "output_datasets_11_12\\tasks.db",
+  "manifest_path": "output_datasets_11_12\\manifest.json",
+  "checkpoint_path": "output_datasets_11_12\\checkpoint.json"
+}
