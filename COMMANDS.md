@@ -53,9 +53,20 @@ python generate_dataset.py --workers 3
 
 ---
 
-## 3. Resume & Crash Recovery
+## 3. Resume, Crash Recovery & Automatic 5x Retry
 
-If generation stopped due to an error, network glitch, or `Ctrl+C`:
+### Automatic 5-Round Failed Task Retry (Built-in)
+After completing the main run across all pending chapters, the pipeline **automatically inspects for any failed tasks** and retries them across up to **5 consecutive rounds** (with cool-down delays) until 0 failed tasks remain:
+```pwsh
+# Runs main generation + automatically retries any failed tasks up to 5 times
+python generate_dataset.py --workers 3
+
+# Customize retry rounds if desired (e.g. 5 rounds is default):
+python generate_dataset.py --workers 3 --max-failed-retries 5
+```
+
+### Manual Resumption & Retry
+If generation was stopped midway due to `Ctrl+C` or a system restart:
 ```pwsh
 # Automatically resumes from the exact batch where it stopped (Zero duplicate work)
 python generate_dataset.py --workers 3

@@ -22,7 +22,8 @@ param(
     [string]$Subject = "",
     [string]$Chapter = "",
     [string]$QuestionType = "",
-    [int]$Workers = 3
+    [int]$Workers = 3,
+    [int]$MaxFailedRetries = 5
 )
 
 Write-Host "======================================================================" -ForegroundColor Cyan
@@ -62,6 +63,7 @@ if ($Subject) { $cmdArgs += @("--subject", $Subject) }
 if ($Chapter) { $cmdArgs += @("--chapter", $Chapter) }
 if ($QuestionType) { $cmdArgs += @("--question-type", $QuestionType) }
 if ($Workers) { $cmdArgs += @("--workers", "$Workers") }
+if ($MaxFailedRetries) { $cmdArgs += @("--max-failed-retries", "$MaxFailedRetries") }
 
 Write-Host "Executing: python $($cmdArgs -join ' ')" -ForegroundColor Green
 python @cmdArgs

@@ -30,6 +30,7 @@ CONFIG: Dict[str, Any] = {
     "test_mode": str(os.getenv("TEST_MODE", env_vals.get("TEST_MODE", "False"))).lower() == "true",
     "allow_synthetic": str(os.getenv("ALLOW_SYNTHETIC", env_vals.get("ALLOW_SYNTHETIC", "False"))).lower() == "true",
     "workers": int(os.getenv("WORKERS", env_vals.get("WORKERS", "3"))),
+    "max_failed_retries": int(os.getenv("MAX_FAILED_RETRIES", env_vals.get("MAX_FAILED_RETRIES", "5"))),
     "curriculum_json_path": os.getenv("CURRICULUM_JSON_PATH", env_vals.get("CURRICULUM_JSON_PATH", "class_11_12_karnataka_cbse_isc_curriculum_v2026.2.json")),
     "questions_per_type": int(os.getenv("QUESTIONS_PER_TYPE", env_vals.get("QUESTIONS_PER_TYPE", "10"))),
     "summary_topics_count": int(os.getenv("SUMMARY_TOPICS_COUNT", env_vals.get("SUMMARY_TOPICS_COUNT", "10"))),
@@ -94,7 +95,7 @@ CURRICULUM_TARGETS: List[Dict[str, Any]] = [
         "subjects": [
             "Physics", "Chemistry", "Mathematics", "Biology", "Computer Science (Python)",
             "Accountancy", "Business Studies", "Economics", "Geography", "Psychology",
-            "English", "Kannada (Sahitya Sanchalana)", "Electronics", "Statistics",
+            "English", "Electronics", "Statistics",
             "Basic Mathematics", "History (State Syllabus)", "Political Science (State Syllabus)", "Sociology (State Syllabus)"
         ]
     },
@@ -106,7 +107,7 @@ CURRICULUM_TARGETS: List[Dict[str, Any]] = [
         "subjects": [
             "Physics", "Chemistry", "Mathematics", "Biology", "Computer Science (Python)",
             "Accountancy", "Business Studies", "Economics", "Geography", "Psychology",
-            "English", "Kannada (Sahitya Sanchalana)", "Electronics", "Statistics",
+            "English", "Electronics", "Statistics",
             "Basic Mathematics", "History (State Syllabus)", "Political Science (State Syllabus)", "Sociology (State Syllabus)"
         ]
     },

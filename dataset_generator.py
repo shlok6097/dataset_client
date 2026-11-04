@@ -577,7 +577,8 @@ def run_pipeline(
     target_filters: Optional[Dict[str, str]] = None,
     dataset_names: Optional[List[str]] = None,
     targets: Optional[List[Dict[str, Any]]] = None,
-    workers: Optional[int] = None
+    workers: Optional[int] = None,
+    failed_retries: Optional[int] = None
 ) -> Dict[str, Any]:
     """
     Unified entry point for running the dataset generator pipeline.
@@ -802,18 +803,26 @@ def run_pipeline(
     processed_tasks = 0
     committed_records = 0
 
-    try:
+    def _execute_task_batch(task_batch: List[Dict[str, Any]], label: str = "") -> int:
+        nonlocal processed_tasks, committed_records
+        if not task_batch:
+            return 0
+        batch_completed = 0
         if active_workers <= 1:
-            for idx, t in enumerate(pending_tasks, start=1):
+            for idx, t in enumerate(task_batch, start=1):
                 res = execute_single_task(t, idx)
                 if res["status"] == "COMPLETED":
                     processed_tasks += 1
                     committed_records += res["records"]
+                    batch_completed += 1
         else:
-            logger.info(f"Parallel Worker Pool Active: Running {active_workers} concurrent generation streams with anti-throttle staggering.")
+            if label:
+                logger.info(f"{label}: Running {len(task_batch)} tasks across {active_workers} workers...")
+            else:
+                logger.info(f"Parallel Worker Pool Active: Running {active_workers} concurrent generation streams with anti-throttle staggering.")
             with concurrent.futures.ThreadPoolExecutor(max_workers=active_workers) as executor:
                 futures = []
-                for idx, t in enumerate(pending_tasks, start=1):
+                for idx, t in enumerate(task_batch, start=1):
                     futures.append(executor.submit(execute_single_task, t, idx))
                     # Stagger worker starts by 1.2s to prevent millisecond collision on web2api
                     if idx < active_workers:
@@ -824,6 +833,43 @@ def run_pipeline(
                     if res["status"] == "COMPLETED":
                         processed_tasks += 1
                         committed_records += res["records"]
+                        batch_completed += 1
+        return batch_completed
+
+    try:
+        # Phase 1: Main generation run for all pending tasks
+        _execute_task_batch(pending_tasks)
+
+        # Phase 2: Automatic 5-round retry of failed tasks
+        max_retry_rounds = failed_retries if failed_retries is not None else CONFIG.get("max_failed_retries", 5)
+        if max_retry_rounds > 0:
+            for r_round in range(1, max_retry_rounds + 1):
+                cur_summary = ckpt_mgr.get_progress_summary()
+                failed_count = cur_summary.get("failed_tasks", 0)
+                if failed_count == 0:
+                    logger.info("[Auto-Retry Complete] 100% of tasks completed successfully. Zero failed tasks left.")
+                    break
+
+                logger.warning(
+                    f"\n[AUTO-RETRY FAILED TASKS: ROUND {r_round}/{max_retry_rounds}] "
+                    f"Found {failed_count} failed tasks. Resetting and re-executing..."
+                )
+                ckpt_mgr.reset_failed_tasks()
+
+                # Re-select tasks from planned_tasks that are not completed
+                retry_tasks = [
+                    t for t in planned_tasks
+                    if not ckpt_mgr.is_task_completed(t["task_id"])
+                ]
+
+                if not retry_tasks:
+                    break
+
+                # 3-second cool-down jitter before retry to allow API/proxy to settle
+                time.sleep(3.0)
+                resolved = _execute_task_batch(retry_tasks, label=f"[Retry Round {r_round}]")
+                logger.info(f"[Auto-Retry Round {r_round} Result] Successfully resolved {resolved} of {len(retry_tasks)} failed tasks.")
+
     except KeyboardInterrupt:
         logger.warning("Pipeline paused by user (Ctrl+C). Completed tasks are safely committed. Resume anytime!")
         ckpt_mgr.recover_stale_tasks()
